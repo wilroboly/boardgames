@@ -1,0 +1,30 @@
+boardgame.search_api_form:
+  path: '/admin/content/boardgame/search-api'
+  defaults:
+    _form: '\Drupal\boardgames\Form\BoardgameSearchApiForm'
+    _title: 'Search Boardgame Atlas API'
+  requirements:
+    _permission: 'administer site content'
+
+boardgame.search_api_add:
+  path: '/admin/content/boardgame/search-api/{api_boardgame}/add'
+  defaults:
+    _form: '\Drupal\boardgames\Form\BoardgameSearchApiAddForm'
+    _title: 'Add API Boardgame information to a boardgame entity.'
+  options:
+    parameters:
+      api_boardgame:
+        type: 'id'
+  requirements:
+    _permission: 'administer site content'
+
+boardgame.bulk_import_form:
+  path: '/admin/content/boardgame/bulk-import-api'
+  defaults:
+    _form: '\Drupal\boardgames\Form\BoardgameBulkImportForm'
+    _title: 'Bulk Import Boardgames from API'
+  requirements:
+    _permission: 'administer site content'
+
+
+

@@ -1,0 +1,32 @@
+# Boardgame routing definition
+entity.boardgame.collection:
+  route_name: entity.boardgame.collection
+  title: 'Boardgame'
+  base_route: system.admin_content
+  weight: 20
+
+boardgame.settings_tab:
+  route_name: boardgame.settings
+  title: 'Settings'
+  base_route: boardgame.settings
+
+entity.boardgame.canonical:
+  route_name: entity.boardgame.canonical
+  base_route: entity.boardgame.canonical
+  title: 'View'
+
+entity.boardgame.edit_form:
+  route_name: entity.boardgame.edit_form
+  base_route: entity.boardgame.canonical
+  title: 'Edit'
+
+entity.boardgame.version_history:
+  route_name: entity.boardgame.version_history
+  base_route: entity.boardgame.canonical
+  title: 'Revisions'
+
+entity.boardgame.delete_form:
+  route_name:  entity.boardgame.delete_form
+  base_route:  entity.boardgame.canonical
+  title: Delete
+  weight: 10

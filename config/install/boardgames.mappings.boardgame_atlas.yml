@@ -1,0 +1,40 @@
+field_mapping:
+  name:
+    field: 'name'
+    size: 50
+  id: 'field_game_id'
+  description:
+    field: 'field_description_preview'
+    attribute: 'value'
+    format: 'full_html'
+  description_preview:
+    field: 'field_description_preview'
+    attribute: 'summary'
+  url: 'field_game_url'
+  min_age: 'field_minimum_age'
+  year_published: 'field_year_published'
+  min_players: 'field_minimum_players'
+  max_players: 'field_maximum_players'
+
+field_reference_mapping:
+  categories:
+    name: 'field_category'
+    type: 'reference'
+    uri: '/game/categories'
+  publishers:
+    name: 'field_publishers'
+    type: 'string'
+  mechanics:
+    name: 'field_mechanics'
+    type: 'reference'
+    uri: '/game/mechanics'
+  image_url:
+    title: 'The Box art'
+    name: 'field_remote_box_art'
+    type: 'remote_image'
+    flat: 'true'
+  thumb_url:
+    title: 'A Thumbnail of the box art'
+    name: 'field_remote_thumbnail_box_art'
+    type: 'remote_image'
+    flat: 'true'

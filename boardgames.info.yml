@@ -1,0 +1,5 @@
+name: 'Boardgames'
+type: module
+description: 'A boardgame content type which draws its content from an external API.'
+core: 8.x
+package: 'Content'

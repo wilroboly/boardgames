@@ -1,0 +1,31 @@
+add boardgame entities:
+  title: 'Create new Boardgame entities'
+
+administer boardgame entities:
+  title: 'Administer Boardgame entities'
+  description: 'Allow to access the administration form to configure Boardgame entities.'
+  restrict access: true
+
+delete boardgame entities:
+  title: 'Delete Boardgame entities'
+
+edit boardgame entities:
+  title: 'Edit Boardgame entities'
+
+view published boardgame entities:
+  title: 'View published Boardgame entities'
+
+view unpublished boardgame entities:
+  title: 'View unpublished Boardgame entities'
+
+view all boardgame revisions:
+  title: 'View all Boardgame revisions'
+
+revert all boardgame revisions:
+  title: 'Revert all Boardgame revisions'
+  description: 'Role requires permission <em>view Boardgame revisions</em> and <em>edit rights</em> for boardgame entities in question or <em>administer boardgame entities</em>.'
+
+delete all boardgame revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Boardgame revisions</em> and <em>delete rights</em> for boardgame entities in question or <em>administer boardgame entities</em>.'
+

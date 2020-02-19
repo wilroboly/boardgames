@@ -1,0 +1,14 @@
+
+# Boardgame menu items definition
+entity.boardgame.collection:
+  title: 'Boardgame'
+  route_name: entity.boardgame.collection
+  description: 'List Boardgame entities'
+  parent: system.admin_content
+  weight: 100
+
+boardgame.admin.structure.settings:
+  title: 'Boardgames'
+  description: 'Configure Boardgame entities'
+  route_name: boardgame.settings
+  parent: system.admin_structure

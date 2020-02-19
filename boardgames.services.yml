@@ -1,0 +1,4 @@
+services:
+  boardgames.manager:
+    class: Drupal\boardgames\BoardgameManager
+    arguments: ['@entity_type.manager', '@entity_field.manager', '@config.factory', '@string_translation']

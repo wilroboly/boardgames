@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains boardgames.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function boardgames_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the boardgames module.
+    case 'help.page.boardgames':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('A boardgame content type which draws its content from external APIs.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

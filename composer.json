@@ -1,0 +1,13 @@
+{
+    "name": "boardgames",
+    "type": "drupal-module",
+    "description": "A boardgame content type which draws its content from an external API.",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/boardgames",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/boardgames",
+        "source": "http://cgit.drupalcode.org/boardgames"
+    }
+}

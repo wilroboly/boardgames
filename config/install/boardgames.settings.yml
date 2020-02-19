@@ -1,0 +1,8 @@
+boardgame_atlas:
+  api_url: 'https://www.boardgameatlas.com/api'
+  client_id: cJT77HkbfV
+  client_secret: 694c3feba8d9970f86530924e83364c3
+  api_type: json
+boardgame_geek:
+  api_url: 'https://www.boardgamegeek.com/xmlapi'
+  api_type: xml

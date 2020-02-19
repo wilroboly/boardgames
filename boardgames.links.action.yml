@@ -1,0 +1,17 @@
+entity.boardgame.add_form:
+  route_name: entity.boardgame.add_form
+  title: 'Add Boardgame'
+  appears_on:
+    - entity.boardgame.collection
+
+boardgame.search_api_form:
+  route_name: boardgame.search_api_form
+  title: 'Search API for Boardgame'
+  appears_on:
+    - entity.boardgame.collection
+
+boardgame.bulk_import:
+  route_name: boardgame.bulk_import_form
+  title: 'Bulk Import Boardgames from API'
+  appears_on:
+    - entity.boardgame.collection
